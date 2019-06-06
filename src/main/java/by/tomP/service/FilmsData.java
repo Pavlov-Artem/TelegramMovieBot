@@ -23,7 +23,7 @@ public class FilmsData {
     String date;
     String poster;
 
-    OmdbApi omdb = new OmdbApi("468594f3");
+    OmdbApi omdb = new OmdbApi("apikey");
 
 
     List<String> imdbIdList = new ArrayList<String>();
